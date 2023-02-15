@@ -1,0 +1,60 @@
+aside{
+  display: block;
+}
+
+aside ul li {
+  text-decoration: none;
+  font-size: 12px;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.asideOpciones:hover {
+  background-color: #008e5a;
+}
+.asideOpciones1 {
+  background-color: #444444;
+}
+
+.asideBar {
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.asideBar a {
+  padding: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+#titleInstitucionales {
+  background-color: #444444;
+  color: rgb(255, 255, 255);
+}
+
+.contadorDiasAccidentes {
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+  padding: 1px;
+  text-align: center;
+  padding-top: 0;
+}
+
+.letreroAccidentes {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+.letreroAccidentes:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 0;
+}

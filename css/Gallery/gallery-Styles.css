@@ -1,0 +1,19 @@
+.gallery {
+  display: flex;
+  width: 1000px;
+  height: 400px;
+}
+
+.gallery img {
+  min-width: 0;
+  flex: 1 1 10px;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.gallery img:hover {
+  flex: 1 1 280px;
+  opacity: 1;
+}
